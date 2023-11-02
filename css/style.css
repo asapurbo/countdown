@@ -1,0 +1,76 @@
+/* ALL Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+/* ALL Common CSS End */
+
+/* counterUp part start */
+#counter_part {
+  height: 100vh;
+  padding: 243px 0;
+  background: #000000;
+}
+.headText{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.headText h1{
+  color: rgb(114, 113, 113);
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.item_part {
+    display: flex;
+}
+.item {
+  background: rgba(117, 115, 115, 0.479);
+  width: 25%;
+  padding: 20px;
+  color: #9e9e9ec0;
+  text-align: center;
+  border-radius: 20px 0 20px 0;
+  margin: 0 10px 0 10px;
+}
+.item h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 15px;
+}
+.item .color {
+  color: #f1cf53;
+  padding: 10px;
+  background: #000000a2;
+  border-radius: 0 20px 0 20px;
+}
+/* counterUp part end */
